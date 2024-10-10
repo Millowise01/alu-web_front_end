@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design Project</title>
+    <link rel="stylesheet" href="03-styles.css">
+</head>
+<body>
+    <header class="hero-homepage">
+        <div class="section-hero">
+            <div class="section-inner">
+                <h1>Welcome to Our Website</h1>
+                <p>Discover amazing content and features.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <img
+                sizes="(max-width: 3000px) 40vw, 1200px"
+                srcset="
+                  images/pic-about-01_c_scale,w_380.jpg 380w,
+                  images/pic-about-01_c_scale,w_853.jpg 853w,
+                  images/pic-about-01_c_scale,w_1200.jpg 1200w"
+                src="images/pic-about-01_c_scale,w_1200.jpg"
+                alt="About us image">
+        </section>
+        <section class="latest-news">
+            <img
+                sizes="(max-width: 3000px) 40vw, 1200px"
+                srcset="
+                  images/pic-article-01_c_scale,w_380.jpg 380w,
+                  images/pic-article-01_c_scale,w_853.jpg 853w,
+                  images/pic-article-01_c_scale,w_1200.jpg 1200w"
+                src="images/pic-article-01_c_scale,w_1200.jpg"
+                alt="Article 1 image">
+            <img
+                sizes="(max-width: 3000px) 40vw, 1200px"
+                srcset="
+                  images/pic-article-02_c_scale,w_380.jpg 380w,
+                  images/pic-article-02_c_scale,w_853.jpg 853w,
+                  images/pic-article-02_c_scale,w_1200.jpg 1200w"
+                src="images/pic-article-02_c_scale,w_1200.jpg"
+                alt="Article 2 image">
+            <img
+                sizes="(max-width: 3000px) 40vw, 1200px"
+                srcset="
+                  images/pic-article-03_c_scale,w_380.jpg 380w,
+                  images/pic-article-03_c_scale,w_853.jpg 853w,
+                  images/pic-article-03_c_scale,w_1200.jpg 1200w"
+                src="images/pic-article-03_c_scale,w_1200.jpg"
+                alt="Article 3 image">
+        </section>
+    </main>
+</body>
+</html>
