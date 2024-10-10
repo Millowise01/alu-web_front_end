@@ -1,0 +1,12 @@
+/* Updated 01-styles.css */
+
+.hero-homepage {
+    /* Existing styles */
+    background-position: 65% 8rem; /* Updated value */
+    background-size: 90rem auto;   /* Updated value */
+}
+
+.section-hero .section-inner {
+    /* Existing styles */
+    min-height: 35vh; /* Updated value */
+}
